@@ -3,8 +3,7 @@
 	"name": "Pinterest API Switcher",
 	"version": "0.1",
 	"background": {
-		"scripts": ["background.js"],
-		"persistent": false
+		"scripts": ["background.js"]
 	},
 	"page_action": {
 		"default_icon": "icon.png",
@@ -12,6 +11,10 @@
 	},
 	"permissions": [
 		"declarativeContent",
-		"tabs"
-	]
+		"tabs",
+		"contextMenus"
+	],
+	"icons": {
+		"16": "icon.png"
+	}
 }
