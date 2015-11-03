@@ -8,6 +8,9 @@ Install/tweak by,
 var username = 'your_username';
 
 2) Go to chrome://extensions and enable Developer mode
+
 3) Click on "load unpacked extension" and select the directory with all the extension files (should be named "api-switcher-extension")
-4) You're good to go! Look for the Pinterest icon in the URL bar 
+
+4) You're good to go! Look for the Pinterest icon in the URL bar
+
 5) PROFIT!!! $$$$$$
