@@ -24,7 +24,8 @@ chrome.runtime.onInstalled.addListener(function() {
 });
 
 chrome.pageAction.onClicked.addListener(function(tab){
-	var username = 'brendan';
+	// edit "username" to match your own ldap name!
+	var username = 'your_username';
 	var url = tab.url;
 	var split = tab.url.split(".com/");
 
